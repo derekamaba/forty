@@ -26,6 +26,8 @@ $(document).ready(function() {
                     });
                 }else if (response.status === 'valid') {
                     window.location.replace(base_url + 'home');
+                }else if (response.status === 'notvalid') {
+                    $('.error_login').show();
                 }
             },
         })

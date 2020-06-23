@@ -4,6 +4,10 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/datatables.min.css') ?>">
     <style>
+    .error_login {
+        display: none;
+        color : red;
+    }
     .field_error {
         color: RED;
         font-size: 12px;
